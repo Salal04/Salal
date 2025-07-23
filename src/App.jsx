@@ -49,16 +49,15 @@ const Routers = createBrowserRouter([
         element: <Dashboard/>
       },
       
-    ],
-    
-  }
+    ], 
+  },
 ])
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-      <RouterProvider router={Routers} basename="/Salal"></RouterProvider>
+      <RouterProvider router={Routers}></RouterProvider>
   )
 }
 
