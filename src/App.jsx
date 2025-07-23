@@ -58,7 +58,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-      <RouterProvider router={Routers}></RouterProvider>
+      <RouterProvider router={Routers} basename="/Salal"></RouterProvider>
   )
 }
 
