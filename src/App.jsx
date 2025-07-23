@@ -41,7 +41,7 @@ const Routers = createBrowserRouter([
         element:<Projects/>
       },
       {
-        path:"/Admin",
+        path:"Admin",
         element:<AdminPage/>
       },
       {
