@@ -70,7 +70,7 @@ const { register, handleSubmit } = useForm();
                   </svg>
                   <input 
                     autoComplete="off" 
-                    {...register("GitLinkd", { required: true })} 
+                    {...register("GitLink", { required: true })} 
                     placeholder="GitLink" 
                     className="input-field" 
                     type="text" 
