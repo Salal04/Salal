@@ -36,13 +36,6 @@ function HomePage(){
                     name="keywords" 
                     content="Salal, MERN stack developer, React developer, Node.js, MongoDB, Lahore developer, frontend developer, web portfolio, freelance web developer" 
                 />
-                <meta name="author" content="Salal Shabbir" />
-                
-                {/* Open Graph for Social Sharing */}
-                <meta property="og:title" content="Salal – MERN Stack Developer Portfolio" />
-                <meta property="og:description" content="Modern and responsive portfolio showcasing Salal's React, MERN Stack, and web development projects." />
-                <meta property="og:url" content="https://salal-five.vercel.app/" />
-                <meta property="og:type" content="website" />
             </Helmet>
 
             <div class="grid grid-cols-1  md:grid-cols-[1fr_1fr] gap-4 p-4 w-full">
