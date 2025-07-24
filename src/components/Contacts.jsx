@@ -5,11 +5,20 @@ import email from "../assets/email.png"
 import whatsapp from "../assets/whatsapp.png"
 import github from "../assets/github.png"
 import linkedln from "../assets/linkedin.png"
+import { Helmet } from "react-helmet";
 
 function Contact()
 {
     return(
         <div>
+            <Helmet>
+                    <title>Contact | Salal - Web Developer in Lahore</title>
+                    <meta
+                    name="description"
+                    content="Get in touch with Salal, a full-stack web developer from Lahore. Available for freelance, collaborations, or job opportunities."
+                    />
+                    <meta name="keywords" content="Contact Salal, Lahore Developer, Freelance Web Developer, React Developer, Full Stack Developer Pakistan" />
+            </Helmet>
 
             <div className="flex flex-col box-border ">
                 <div className="w-full mt-4 text-center">

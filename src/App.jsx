@@ -54,7 +54,6 @@ const Routers = createBrowserRouter([
 ])
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
       <RouterProvider router={Routers}></RouterProvider>

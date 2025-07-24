@@ -10,6 +10,7 @@ import github from "../assets/github.png"
 import linkedln from "../assets/linkedin.png"
 import email from "../assets/email.png"
 import loc from "../assets/Location.png";
+import { Helmet } from "react-helmet";
 
 
 function Dashboard()
@@ -25,6 +26,24 @@ function HomePage(){
 
     return (
         <div className="flex flex-col w-full">
+            <Helmet>
+                <title>Home | Salal – MERN Stack & Web Developer</title>
+                <meta 
+                    name="description" 
+                    content="I'm Salal, a MERN Stack web developer based in Lahore, Pakistan. Explore my portfolio, skills in React, Node.js, MongoDB, and modern web projects. Let's build clean, fast, and dynamic websites together!" 
+                />
+                <meta 
+                    name="keywords" 
+                    content="Salal, MERN stack developer, React developer, Node.js, MongoDB, Lahore developer, frontend developer, web portfolio, freelance web developer" 
+                />
+                <meta name="author" content="Salal Shabbir" />
+                
+                {/* Open Graph for Social Sharing */}
+                <meta property="og:title" content="Salal – MERN Stack Developer Portfolio" />
+                <meta property="og:description" content="Modern and responsive portfolio showcasing Salal's React, MERN Stack, and web development projects." />
+                <meta property="og:url" content="https://salal-five.vercel.app/" />
+                <meta property="og:type" content="website" />
+            </Helmet>
 
             <div class="grid grid-cols-1  md:grid-cols-[1fr_1fr] gap-4 p-4 w-full">
                 <div class="  md:p-10 lg:pt-28 justify-center items-center order-last md:order-first">
