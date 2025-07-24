@@ -112,7 +112,7 @@ const ProjectCard = (props) => {
           <div className="border-2 border-white rounded-[0.5em] text-white font-nunito text-[1em] font-normal px-[0.5em] py-[0.05em] hover:bg-white hover:text-[#222222] duration-300 cursor-pointer">
             <a href={props.host}>View Live</a>
           </div>
-          {props.admin && <button onClick={onDelete} className="border-2 border-white rounded-[0.5em] text-white font-nunito text-[1em] font-normal px-[0.5em] py-[0.05em] hover:bg-white hover:text-[#222222] duration-300 cursor-pointer">
+          {props.admin && <button onClick={props.onDelete} className="border-2 border-white rounded-[0.5em] text-white font-nunito text-[1em] font-normal px-[0.5em] py-[0.05em] hover:bg-white hover:text-[#222222] duration-300 cursor-pointer">
           Delete</button>}
           
         </div>
